@@ -1,0 +1,75 @@
+html{
+    background-image: url(https://image.freepik.com/free-vector/software-development-team-isometric-3d-concept-illustration_107173-14061.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:150%;
+}
+header div{
+    background-image: url(https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2020/10/08/Pictures/_8e04ebc4-0903-11eb-bbb0-40eddbf766cc.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 200px;
+}
+header{
+    width:auto;
+    
+    
+}
+header p{
+    display: inline-block;
+    padding: 25px;
+    margin-top: 50px;
+    width: 50%;
+    font-size: 25px;
+    background: rgb(179, 184, 245);
+    border-top-right-radius: 80%;
+    border-bottom-right-radius:80% ;
+}
+section{
+    float: left;
+    width: 50%;
+
+    margin-left: 3%;
+    
+    background: linear-gradient(lightblue,rgba(255, 255, 255, 0.03) );
+
+}
+section h3{
+
+    background: lightblue;
+    
+    padding: 15px;
+}
+button{
+    display: block;
+    width: 100px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    position: relative;
+    animation: mymove 5s infinite;
+    background: linear-gradient(rgb(18, 182, 168) , mediumorchid);
+    border-top-right-radius: 50%;
+    border-bottom-right-radius:10% ;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius:50% ;
+    box-shadow: 2px 2px 2px yellowgreen;    
+}
+img{
+    float: right;
+    width: 25%;
+    margin-right: 10%;
+    box-shadow: 10px 10px 10px black;
+}
+#div1 {
+    animation-timing-function: linear;
+}
+@keyframes mymove {
+    0%   {transform: rotate(0deg); left:-40px; top:0px;}
+    25% {transform: rotate(20deg);}
+    50% { left: 40px; top: 0px;}
+    75%{transform: rotate(-20deg);}
+    100% {transform: rotate(0deg); left:-40px; top:0px;}
+}
