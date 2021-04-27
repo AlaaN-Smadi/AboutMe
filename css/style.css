@@ -55,12 +55,44 @@ button{
     border-bottom-left-radius:50% ;
     box-shadow: 2px 2px 2px yellowgreen;    
 }
-img{
+aside{
+    background: rgba(173, 216, 230, 0.781);
     float: right;
-    width: 25%;
-    margin-right: 10%;
+    width: 35%;
+    margin-right: 8%;
     box-shadow: 10px 10px 10px black;
 }
+
+nav ul li {
+    display:block;
+    text-align: center;
+    margin: 27px;
+    
+    font-size: 20px;
+    padding: 7px;
+
+}
+
+aside nav ul h3{
+    display: block;
+    height: 50px;
+    
+    text-align: center;
+    font-size: x-large;
+    background:rgb(179, 184, 245) ;
+    
+}
+
+nav ul li a{
+    margin: 25px;
+    background: cadetblue;
+    padding: 15px;
+    /* margin: 20px; */
+    text-decoration: none;
+    border-radius: 50%;
+    color: wheat;
+}
+
 #div1 {
     animation-timing-function: linear;
 }

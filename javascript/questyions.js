@@ -53,9 +53,9 @@ function myFunction() {
             break;
 
     }
-    
+
     let question4 = prompt("Do you think I will be success development ?? [y/n]");
-    
+
     switch (question4.toLowerCase()) {
         case "y":
             console.log("fourth question true answer");
@@ -87,14 +87,55 @@ function myFunction() {
             break;
 
     }
-    
-    
-   
-   
 
-    console.log("the last result " , grade);
 
-    alert("Your result = " + grade );
+    let question6 = parseInt(prompt("You have 4 attempts to solve this question. If boy's old is 10, and his sister's old is half of his old , after 10 years his old will be 20 , what is his sister's old at that time ??"));
+    for (let i = 1; i < 4; i++) {
+        if (question6 == 15) {
+            alert("Great !! ");
+            grade++;
+            break;
+        } else if (question6 > 15) {
+            question6 = parseInt(prompt(`Too high ,You have ${4 - i} attempts to solve this question. If boy's old is 10, and his sister's old is half of his old , after 10 years his old will be 20 , what is his sister's old at that time ??`));
+        } else {
+            question6 = parseInt(prompt(`Too low ,You have ${4 - i} attempts to solve this question. If boy's old is 10, and his sister's old is half of his old , after 10 years his old will be 20 , what is his sister's old at that time ??`));
+
+        }
+    }
+
+    alert("The true answer is 15 years");
+
+    let possibleAnswer = ["petra", "mansaf"];
+
+    let question7 = prompt(`As you know , there are two famous things that you can find them in Jordan . you have 6 attempts to guess one of them ... `);
+
+
+    let t = 1;
+
+    while(question7 !== possibleAnswer[0] && question7 !== possibleAnswer[1] ){
+        t++;
+        question7 = prompt(`Try Again , there are two famous things that you can find them in Jordan . you have ${6-t} attempts to guess one of them ... `);
+        if (t == 6){
+            break;
+        }
+    }
+switch (question7.toLowerCase()){
+    case possibleAnswer[0]:
+        grade++;
+        alert("Great !! Petra is the most famous place in Jordan , and  mansaf is most famous meal in Jordan");
+        break;
+    case possibleAnswer[1]:
+        grade++;
+        alert("Great !! Petra is the most famous place in Jordan , and  mansaf is most famous meal in Jordan");
+        break;
+    default:
+        alert(`The most famous things in Jordan are ${possibleAnswer[0]} and ${possibleAnswer[1]} `);
+
+}
+
+    console.log("the last result ", grade , "out of 7");
+
+    alert("Your result = " + grade + "out of 7");
 
 }
 
