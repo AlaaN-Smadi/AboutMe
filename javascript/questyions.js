@@ -112,7 +112,7 @@ function myFunction() {
 
     let t = 1;
 
-    while(question7 !== possibleAnswer[0] && question7 !== possibleAnswer[1] ){
+    while(question7.toLowerCase() !== possibleAnswer[0] && question7.toLowerCase() !== possibleAnswer[1] ){
         t++;
         question7 = prompt(`Try Again , there are two famous things that you can find them in Jordan . you have ${6-t} attempts to guess one of them ... `);
         if (t == 6){
