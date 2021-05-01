@@ -1,10 +1,11 @@
 'use strict'
 
 
-function myFunction() {
+// function myFunction() {
 
     let grade = 0;
     // question 1
+    function q1 (){
     let question1 = prompt("Are you planing to join our comunity and learn HTML,CSS & JavaScript ?? [y/n]");
     switch (question1.toLowerCase()) {
         case "y":
@@ -21,8 +22,12 @@ function myFunction() {
             break;
 
     }
+    }
+  
 
     // question 2
+    function q2 (){
+
     let question2 = prompt("Do you think it will be nice journey while studying with us ?? [y/n]");
     switch (question2.toLowerCase()) {
         case "y":
@@ -39,8 +44,11 @@ function myFunction() {
             break;
 
     }
+    }
 
     // question 3
+    function q3 (){
+
     let question3 = prompt("Do you think it will be easy journey ?? [y/n]");
     switch (question3.toLowerCase()) {
         case "n":
@@ -57,10 +65,11 @@ function myFunction() {
             break;
 
     }
-
+    }
 
     // question 4
-    let question4 = prompt("Do you think I will be success development ?? [y/n]");
+    function q4 (){
+   let question4 = prompt("Do you think I will be success development ?? [y/n]");
 
     switch (question4.toLowerCase()) {
         case "y":
@@ -77,9 +86,12 @@ function myFunction() {
             break;
 
     }
+    }
+ 
 
 
     //question 5
+    function q5 (){
     let question5 = prompt("Are you interesting to start ?? [y/n]");
     switch (question5.toLowerCase()) {
         case "y":
@@ -97,8 +109,11 @@ function myFunction() {
 
     }
 
+    }
+
 
     // question 6
+    function q6 (){
     let question6 = parseInt(prompt("You have 4 attempts to solve this question. If boy's old is 10, and his sister's old is half of his old , after 10 years his old will be 20 , what is his sister's old at that time ??"));
     for (let i = 1; i < 4; i++) {
         if (question6 == 15) {
@@ -116,9 +131,11 @@ function myFunction() {
     alert("The true answer is 15 years");
 
 
+    }
+
     // question 7 
 
-
+    function q7 (){
     let possibleAnswer = ["petra", "mansaf"];
 
 
@@ -149,9 +166,14 @@ function myFunction() {
 
     }
 
+    }
+    function reslet (){
+
     console.log("the last result ", grade, "out of 7");
 
     alert("Your result = " + grade + "out of 7");
 
-}
+    }
+
+
 
