@@ -55,42 +55,55 @@ button{
     border-bottom-left-radius:50% ;
     box-shadow: 2px 2px 2px yellowgreen;    
 }
+
 aside{
-    background: rgba(173, 216, 230, 0.781);
-    float: right;
-    width: 35%;
-    margin-right: 8%;
-    box-shadow: 10px 10px 10px black;
+    
+}
+
+
+footer{
+    text-align: center;
+    
+    background: rgba(0, 0, 0, 0.377);
+    margin-top: 450px;
+}
+
+footer nav{
+    margin-left: 50px;
+    margin-right: 100px;
 }
 
 nav ul li {
-    display:block;
+    display:inline-block;
     text-align: center;
-    margin: 27px;
+    margin: 20px;
     
     font-size: 20px;
     padding: 7px;
 
 }
 
-aside nav ul h3{
-    display: block;
-    height: 50px;
+nav ul h3{
     
+    height: 50px;
+    border-radius: 90%;
     text-align: center;
     font-size: x-large;
-    background:rgb(179, 184, 245) ;
+    text-decoration: underline;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: black;
+    background:rgba(31, 45, 197, 0.719) ;
     
 }
 
 nav ul li a{
     margin: 25px;
-    background: cadetblue;
+    background: rgba(95, 158, 160, 0.356);
     padding: 15px;
     /* margin: 20px; */
-    text-decoration: none;
+    text-decoration:none;
     border-radius: 50%;
-    color: wheat;
+    color: rgb(255, 255, 255);
 }
 
 #div1 {
